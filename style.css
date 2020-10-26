@@ -1,0 +1,28 @@
+body {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+h2 {
+  text-transform: uppercase;
+}
+
+input,
+select {
+  width: 250px;
+  height: 30px;
+  outline: none;
+}
+select {
+  width: 100px;
+}
+span {
+  font-size: 2rem;
+  font-weight: 800;
+  padding-right: 15%;
+}
+
+#time {
+  padding-right: 20px;
+}
