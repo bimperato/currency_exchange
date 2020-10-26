@@ -84,7 +84,7 @@ async function currency() { // need to use async in order to use await
   const data = await res.json(); // json converst it to human readable format
   const arrKeys = Object.keys(data.rates); // object.keys method returns an array of strings with the objects property names
   const rates = data.rates; // all of the rates based on EURO
-  
+  arrKeys.push("EUR");
   // map will apply callback function to every element and put result into new array
   arrKeys.map((item) => {
     html += `<option value="${item}">${item}</option>`;
